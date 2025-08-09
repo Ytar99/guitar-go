@@ -1,0 +1,12 @@
+env: dev
+server:
+  port: ":8080"
+database:
+  driver: "sqlite"
+  sqlite:
+    path: "./data.db"
+  postgres:
+    url: "postgres://user:pass@localhost:5432/db"
+jwt:
+  secret: "your-secret-key"
+  expires: "24h"
