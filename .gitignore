@@ -1,4 +1,7 @@
-.env
+
 configs/config.yaml
 docs
+bin
+
+.env
 go.sum
